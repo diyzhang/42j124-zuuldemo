@@ -1,0 +1,14 @@
+# 项目端口
+server:
+  port: 9099
+
+# 项目名称
+spring:
+  application:
+    name: zuul-provider-02
+
+# Eureka配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9898/eureka/

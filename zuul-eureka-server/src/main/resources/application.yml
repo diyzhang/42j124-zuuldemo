@@ -1,0 +1,16 @@
+# 项目端口
+server:
+  port: 9898
+
+# 项目名称
+spring:
+  application:
+    name: zuul-eureka-server
+
+# Eureka配置
+eureka:
+  client:
+    #  本服务不注册到Eureka中
+    register-with-eureka: false
+    service-url:
+      defautZone: http://localhost:9898/eureka
